@@ -1,0 +1,22 @@
+package employee;
+
+public class Employee {
+
+    public void method1(String name,int year,String address){
+         name=name;
+         year=year;
+         address=address;
+
+
+        System.out.println(name+"\t"+year+"\t"+address);
+    }
+    public static void main(String [] args){
+        String name,address;
+        int year;
+        System.out.println("Name\tYear of Joining  \taddress");
+        Employee obj=new Employee();
+        obj.method1("robert",1994,"      64C-WallsStreet");
+        obj.method1("Sam   ",2000,"      68D-WallsStreet");
+        obj.method1("John",1999,"      26B-WallsStreet");
+    }
+}

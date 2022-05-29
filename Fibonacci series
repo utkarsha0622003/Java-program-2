@@ -6,7 +6,7 @@ public class StringOpration {
        int a=0,b=1,c;
 
         Scanner sc=new Scanner(System.in);
-        System.out.print("number of fibonacci numbers : ");
+        System.out.print("numbers in fibonacci series : ");
 
         int n=sc.nextInt();
         System.out.println(a);
